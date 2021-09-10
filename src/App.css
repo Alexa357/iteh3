@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.home-container {
+  height: 100vh;
+  display: grid;
+  gap: 50px;
+  align-content: center;
+  justify-items: center;
+  background-image: URL("./img/home2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.home-title {
+  font-size: 70px;
+  color: red;
+}
+
+.home-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-title {
+  text-align: center;
+  color: yellow;
+  width: 100%;
+  background: red;
+  padding: 10px 0px 20px 0;
+  font-size: 40px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.slider-img {
+  width: 70vw;
+  height: 40vw;
+}
+.slider-container i {
+  font-size: 30px;
+}
+.slider-container i:hover {
+  color: blueviolet;
+}
+
+@media screen and (max-width: 1000px) {
+  .car-title {
+    font-size: 35px;
+  }
+}

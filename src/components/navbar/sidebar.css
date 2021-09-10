@@ -1,0 +1,93 @@
+.navbar {
+  height: 80px;
+  background: black;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 57vw;
+}
+
+.logo {
+  justify-self: center;
+  color: beige;
+}
+
+.logo:hover {
+  color: blueviolet;
+}
+
+.menu-bars {
+  color: beige;
+  margin-left: 48px;
+  font-size: 32px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-bars:hover {
+  color: blueviolet;
+}
+
+.sidebar-nav {
+  background: black;
+  color: beige;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+.sidebar-wrap {
+  padding: 25px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-item:hover {
+  color: blueviolet;
+}
+
+.sidebar-item i {
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.sidebar-subitem {
+  color: beige;
+  font-size: 18px;
+  padding: 3px 0;
+}
+.sidebar-subitem:hover {
+  color: black;
+  background: blueviolet;
+}
+
+.subitem-title {
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-wrapper {
+    width: 90vw;
+  }
+}
